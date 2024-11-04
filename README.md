@@ -31,10 +31,10 @@ In Texas, including Anderson County, sales tax is regulated at the state level r
 
 For more information, businesses can consult the [Texas Comptroller’s website](https://comptroller.texas.gov) to confirm their filing frequency, due dates, and any updates to tax laws specific to their industry or type of goods and services.
 
-## Prompt 2
+## Prompt 3
 What are the Sales Tax Filing requirements for Anderson County in Texas State as per IRS tax guidelines and based on the United States federal regulations. Please put the output in the Json format that I shared before.
 
-## Prompt 2 Output
+## Prompt 3 Output
 ```json
 {
   "compliance_points": [

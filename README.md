@@ -31,8 +31,41 @@ In Texas, including Anderson County, sales tax is regulated at the state level r
 
 For more information, businesses can consult the [Texas Comptroller’s website](https://comptroller.texas.gov) to confirm their filing frequency, due dates, and any updates to tax laws specific to their industry or type of goods and services.
 
+## Prompt 2
+What are the Sales Tax Filing requirements for Anderson County in Texas State as per IRS tax guidelines. Please put the output in the Json format that I shared below (I have attached the sample JSON file).
+
+## Prompt 2 Output
+
+{
+  "compliance_points": [
+    {
+      "title": "Sales Tax Permit Requirement",
+      "description": "All businesses selling taxable goods or services in Texas must obtain a sales tax permit from the Texas Comptroller. This requirement applies to both in-state businesses and out-of-state sellers with economic nexus in Texas (e.g., annual sales exceeding $500,000 to Texas customers).",
+      "due_date": "Prior to collecting any sales tax in Texas",
+      "responsible_party": "Business Owner",
+      "penalties": "Operating without a permit can lead to fines and legal consequences, including back taxes owed."
+    },
+    {
+      "title": "Sales Tax Filing Frequency",
+      "description": "The Texas Comptroller sets sales tax filing frequency based on the volume of sales tax collected: monthly (over $1,500/month), quarterly (between $500 and $1,500/quarter), or annually (less than $500/year).",
+      "due_date": "20th of the month following the reporting period (monthly, quarterly, or annually)",
+      "responsible_party": "Business Owner or CPA",
+      "penalties": "Late filings incur a 5% penalty if not filed by the due date, with an additional 5% after 30 days. Interest accrues on unpaid balances."
+    },
+    {
+      "title": "Economic Nexus Compliance",
+      "description": "Following the South Dakota v. Wayfair decision, Texas requires out-of-state businesses to collect and remit sales tax if they exceed $500,000 in sales to Texas customers, even if they lack a physical presence in the state.",
+      "due_date": "Monthly, quarterly, or annually, depending on sales volume as determined by the Texas Comptroller",
+      "responsible_party": "Business Owner or CPA",
+      "penalties": "Failure to comply may lead to fines, back taxes, and possible audits."
+    }
+  ]
+}
+
+
+
 ## Prompt 3
-What are the Sales Tax Filing requirements for Anderson County in Texas State as per IRS tax guidelines and based on the United States federal regulations. Please put the output in the Json format that I shared before.
+What are the Sales Tax Filing requirements for Anderson County in Texas State as per IRS tax guidelines and based on the United States federal regulations. Please put the output in the Json format that I shared below (I have attached the sample JSON file).
 
 ## Prompt 3 Output
 ```json
@@ -55,7 +88,6 @@ What are the Sales Tax Filing requirements for Anderson County in Texas State as
   ]
 }
 ```
-
 
 # Task 2
 

@@ -10,7 +10,7 @@ The homepage endpoint is used to display a generic text message (the message is 
 
 This is the url that I used to display the generic text message `http://192.168.3.53:5000/` (output is shown below + note that the ip address used is from my local machine and the port number `5000` is what I set in `uvicorn.run()`)
 
-<img src="images/first_endpoint_output.jpg" width="700">
+<img src="images/first_endpoint_output.jpg" width="1000">
 
 
 ## Endpoint 2
@@ -18,4 +18,4 @@ The second endpoint is used to return compliance data in a JSON format. This end
 
 This is the url that I used to display the generic text message `http://192.168.3.53:5000/checklist?county=Miami-Dade&state=Florida` (output is shown below + note how I specified the county and state name in the URL)
 
-<img src="images/second_endpoint_output.jpg" width="700">
+<img src="images/second_endpoint_output.jpg" width="1000">

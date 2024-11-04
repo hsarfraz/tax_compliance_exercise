@@ -19,3 +19,8 @@ The second endpoint is used to return compliance data in a JSON format. This end
 This is the url that I used to display the generic text message `http://192.168.3.53:5000/checklist?county=Miami-Dade&state=Florida` (output is shown below + note how I specified the county and state name in the URL)
 
 <img src="images/second_endpoint_output.jpg" width="1000">
+
+## Scaling to multiple states and counties 
+
+The current JSON data structure is suitable for a single state and county. It needs to be converted to a JSON array to allow results to be returned for multiple states and counties. Secondly, the JSON tags within the compliance needs to be conditional based on various compliance requirements across jurisdictions.
+

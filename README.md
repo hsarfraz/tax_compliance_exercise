@@ -36,6 +36,7 @@ What are the Sales Tax Filing requirements for Anderson County in Texas State as
 
 ## Prompt 2 Output
 
+```json
 {
   "compliance_points": [
     {
@@ -61,8 +62,7 @@ What are the Sales Tax Filing requirements for Anderson County in Texas State as
     }
   ]
 }
-
-
+```
 
 ## Prompt 3
 What are the Sales Tax Filing requirements for Anderson County in Texas State as per IRS tax guidelines and based on the United States federal regulations. Please put the output in the Json format that I shared below (I have attached the sample JSON file).
